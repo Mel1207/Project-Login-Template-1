@@ -1,0 +1,32 @@
+
+/* Bigger to smaller tablet setup */
+@media screen and (max-width: 780px) {
+    #box1 {
+        display: none;
+    }
+    #box2 {
+        width: 100%;
+    }
+}
+
+/* Bigger to smaller phone setup */
+@media screen and (max-width: 480px) {
+    input {
+        width: 280px;
+        height: 50px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .btn {
+        width: 200px;
+        font-size: 30px;
+        height: 50px;
+    }
+    .links {
+        font-size: 17px;
+    }
+    .createLink {
+        font-size: 25px;
+    }
+}
